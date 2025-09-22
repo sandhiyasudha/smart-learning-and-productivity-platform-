@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Smart Learning Platform</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <h1>Smart Learning and Productivity Platform</h1>
+
+    <!-- User Input Module -->
+    <section id="userInputModule">
+        <h2>Enter Your Subjects</h2>
+        <input type="text" id="subjectInput" placeholder="Enter subject name">
+        <button onclick="addSubject()">Add Subject</button>
+        <ul id="subjectList"></ul>
+    </section>
+
+    <!-- Progress Chart -->
+    <section id="progressModule">
+        <h2>Progress Chart</h2>
+        <canvas id="progressChart" width="400" height="200"></canvas>
+    </section>
+
+    <!-- Motivation Module -->
+    <section id="motivationModule">
+        <h2>Motivation</h2>
+        <p id="motivationText"></p>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
